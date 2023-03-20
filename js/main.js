@@ -77,14 +77,7 @@ back[3].addEventListener("click", () => {
   Pages[5].classList.remove("active");
   Pages[3].classList.add("active");
 });
-// back[4].addEventListener("click", () => {
-//   Pages[6].classList.remove("active");
-//   Pages[3].classList.add("active");
-// });
-// back[5].addEventListener("click", () => {
-//   Pages[7].classList.remove("active");
-//   Pages[3].classList.add("active");
-// });
+ 
 bar.addEventListener("click", () => {
   Pages[3].classList.remove("active");
   Pages[4].classList.add("active");
