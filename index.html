@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Infos -->
+    <title>Watan-Client</title>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Gereral App -->
+    <div id="App" class="app">
+      <!-- starter page -->
+      <section class="starter page">
+        <div class="img-logo">
+          <img src="img/Asset 1.png" alt="" />
+          <div class="para">
+            <p class="p-title">بطاقة وطن</p>
+          </div>
+        </div>
+        <div class="button">
+          <button class="create-account starterbtn">أنشاء حساب</button>
+          <button class="sign-in starterbtn">تسجيل الدخول</button>
+        </div>
+        <div class="infor">
+          <span> حولنا - اتصل بنا</span>
+          <span>سياسة الخصوصية والأمان </span>
+        </div>
+      </section>
+      <section class="new-account page">
+        <p>
+          حساب جديد
+          <i class="back fa-solid fa-arrow-right"></i>
+        </p>
+        <div class="form">
+          <div class="name-shop btn-wid">
+            <input
+              type="text"
+              class="shop btn"
+              placeholder="اسم المتجر او المجال التجاريي"
+            />
+          </div>
+          <div class="name-manager btn-wid">
+            <input
+              type="text"
+              class="manager btn"
+              placeholder="اسم المدير المفوض"
+            />
+          </div>
+          <div class="Number-agents btn-wid">
+            <input
+              type="text"
+              class="agents btn"
+              placeholder="عدد الوكلاء"
+            />
+          </div>
+          <div class="email btn-wid">
+            <input
+              type="email"
+              class="email btn"
+              placeholder="ادخل البريد الألكتروني"
+            />
+          </div>
+          <div class="phone btn-wid">
+            <input type="tel" class="phone-one btn" placeholder="ادخل رقم الهاتف الاول" />
+          </div>
+          <div class="phone-2 btn-wid">
+            <input type="tel" class="phone-tow btn" placeholder=" ادخل رقم الهاتف الثاني" />
+          </div>
+          <div class="pass btn-wid">
+            <input
+              type="password"
+              class="pasword btn"
+              placeholder="ادخل كلمة المرور"
+            />
+          </div>
+          <div class="pass btn-wid">
+            <input
+              type="password"
+              class="pasword btn"
+              placeholder=" أعد إدخال كلمة المرور"
+            />
+          </div>
+          <div class="n-license btn-wid">
+            <input
+              type="text"
+              class="license btn"
+              placeholder="رقم الرخصة او الاجازة"
+            />
+          </div>
+          <div class="currency-type btn-wid">
+            <select name="currency" class="btn">
+              <option value="">اختر نوع العملة</option>
+              <option value="">دينار عراقي</option>
+              <option value="">دولار امريكي</option>
+            </select>
+          </div>
+          <div class="country btn-wid">
+            <select name="country" class="btn">
+              <option value="">أختر البلد</option>
+              <option value="">العراق</option>
+              <option value="">تركيا</option>
+              <option value="">الإمارات</option>
+              <option value="">السعودية</option>
+              <option value="">سلطنة عمان</option>
+              <option value="">الكويت</option>
+              <option value="">البحرين</option>
+              <option value="">قطر</option>
+              <option value="">لبنان</option>
+              <option value="">الاردن</option>
+              <option value="">سوريا</option>
+              <option value="">مصر</option>
+              <option value="">المغرب</option>
+              <option value="">تونس</option>
+              <option value="">الجزائر</option>
+              <option value="">الولايات المتحدة الامريكية</option>
+              <option value="">المانيا</option>
+              <option value="">بريطانيا</option>
+            </select>
+          </div>
+          <div class="city btn-wid">
+            <select name="city" class="btn">
+              <option value="">أختر المدينة</option>
+              <option value="">اربيل</option>
+              <option value="">بغداد</option>
+              <option value="">السليمانية</option>
+              <option value="">دهوك</option>
+              <option value="">كركوك</option>
+              <option value="">لأنبار</option>
+              <option value="">	بابل</option>
+              <option value="">	البصرة</option>
+              <option value="">	ديالى</option>
+              <option value="">	القادسية</option>
+              <option value="">صلاح الدين	</option>
+              <option value="">	ذي قار</option>
+              <option value="">كربلاء</option>
+              <option value="">المثنى	</option>
+              <option value="">ميسان</option>
+              <option value="">النجف</option>
+              <option value="">	نينوى</option>
+              <option value="">واسط</option>
+              <option value="">حلبجة</option>
+            </select>
+          </div>
+          <div class="button">
+            <div class="chek">
+              <label for="ok1">أوافق على الشروط و الأحكام</label>
+              <input type="checkbox" id="ok1" />
+            </div>
+            <button class="create-account starterbtn">تسجيل الدخول</button>
+            <span>هل لديك حساب ؟</span>
+          </div>
+        </div>
+      </section>
+      <section class="sign-in page">
+        <p>
+          تسجيل الدخول
+          <i class="back fa-solid fa-arrow-right"></i>
+        </p>
+        <div class="form">
+          <div class="email btn-wid">
+            <input
+              type="email"
+              class="email btn"
+              placeholder=" ادخل البريد الألكتروني او رقم الهاتف"
+            />
+          </div>
+          <div class="pass btn-wid">
+            <input
+              type="password"
+              class="pasword btn"
+              placeholder="ادخل كلمة المرور"
+            />
+          </div>
+          <div class="button">
+            <div class="chek">
+              <label for="ok">حفظ معلومات التسجيل</label>
+              <input type="checkbox" id="ok" />
+            </div>
+            <button class="create-account starterbtn">تسجيل الدخول</button>
+            <span>هل نسيت كلمة المرور ؟</span>
+          </div>
+        </div>
+      </section>
+      <section class="services page">
+        <div class="services-page">
+          <div class="head-ser">
+            <i class="bar fa-solid fa-bars"></i>
+            <h2>الخدمات</h2>
+            <div class="icone">
+              <i class="set fa-solid fa-gear"></i>
+            </div>
+          </div>
+          <div class="form-ser">
+            <div class="ads">
+              <div class="ad-1">إعلان</div>
+              <div class="ad-2">إعلان</div>
+            </div>
+            <div class="services-form">
+              <div class="article a-1">
+                <div class="Square">
+                  <div class="gas-station st">
+                    <div class="igm">
+                      <img src="img/Alaa/fwater.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="title">إجمالي الفواتير</div>
+                </div>
+                <div class="Square">
+                  <div class="gas-station st">
+                    <div class="igm">
+                      <img src="img/Alaa/dafa.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="title">طريقة الدفع</div>
+                </div>
+                <div class="Square">
+                  <div class="gas-station st">
+                    <div class="igm">
+                      <img src="img/Alaa/add zbaon.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="title">عدد الزبائن</div>
+                </div>
+                <div class="Square">
+                  <div class="gas-station st">
+                    <div class="igm">
+                      <img src="img/Alaa/map.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="title">عرض الخريطة</div>
+                </div>
+              </div>
+              <div class="barcode">
+                <div class="img-bar">
+                  <img src="img/Alaa/barcode.png" alt="">
+                </div>
+                <div class="but-bar">
+                  <button>
+                    مسح الرمز
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="options page">
+        <div class="option">
+          <div class="option-header">
+            <i class="fa-solid fa-bars"></i>
+            <i class="back fa-solid fa-arrow-left"></i>
+          </div>
+          <ul class="option-ul">
+            <li>
+              <img src="img/Aside-Page-Images/aside1.png" alt="" />
+              <p>عمليات الشراء</p>
+            </li>
+            <li>
+              <img src="img/Aside-Page-Images/aside2.png" alt="" />
+              <p>كشف الحساب</p>
+            </li>
+            <li>
+              <img src="img/Aside-Page-Images/aside3.png" alt="" />
+              <p>الرصيد المتاح</p>
+            </li>
+            <li>
+              <img src="img/Aside-Page-Images/aside4.png" alt="" />
+              <p>الأشعارات</p>
+            </li>
+            <li>
+              <img src="img/Aside-Page-Images/aside5.png" alt="" />
+              <p>الاتصال بالدعم</p>
+            </li>
+            <li>
+              <img src="img/Aside-Page-Images/aside6.png" alt="" />
+              <p>الاستفادة من التطبيق</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="settings page">
+        <div class="settings">
+          <div class="settings-header">
+            <i class="back fa-solid fa-arrow-right"></i>
+            <i class="fa-solid fa-gear"></i>
+          </div>
+          <ul class="settings-ul">
+            <li>
+              <img src="img/Settinges-Page-img/language.png" alt="" />
+              <p>اللغة</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/notifications.png" alt="" />
+              <p>أعدادات الإشعارات</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/account.png" alt="" />
+              <p>معلومات الحساب</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/safety.png" alt="" />
+              <p>أمان الحساب</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/Country.png" alt="" />
+              <p>الدولة</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/around.png" alt="" />
+              <p>حول التطبيق</p>
+            </li>
+            <li>
+              <img src="img/Settinges-Page-img/signout.png" alt="" />
+              <p>تسجيل الخروج</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+<!--  -->
